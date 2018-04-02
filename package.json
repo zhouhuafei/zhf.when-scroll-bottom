@@ -1,7 +1,7 @@
 {
     "name": "zhf.when-scroll-bottom",
-    "version": "1.0.1",
-    "description": "no description",
+    "version": "1.0.2",
+    "description": "当滚动到浏览器的底部",
     "main": "dist/index.min.js",
     "scripts": {
         "codeLint": "eslint --ext .js,.vue,.html ./",

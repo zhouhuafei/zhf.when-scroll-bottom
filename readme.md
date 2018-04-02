@@ -1,9 +1,11 @@
-# 当滚动到浏览器底部
+# 当滚动到浏览器的底部
 ```
 const WhenScrollBottom = require('zhf.when-scroll-bottom');
 new WhenScrollBottom({
     callback: {
         success: function () {
+            console.log('滚动到底部了');
+            whenScrollBottom.dataLoadContinue(); // 数据如果没有加载完毕，调用这个，如果加载完毕了就不要调用这个了。
         },
         failure: function () {
         },
